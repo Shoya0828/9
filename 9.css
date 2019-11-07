@@ -58,7 +58,8 @@ background-position: bottom;
 	margin: 15px 0 5px;
 }
 @media screen and (max-width:768px){
-	width: 100%
+	.main {
+	    width: 100%
 }
 	.step-box {
 		float:none;
@@ -68,7 +69,6 @@ background-position: bottom;
 	.step-img1 {
 		max-width: 100%;
 	    padding-top: 75%;
-	    margin-top: 50px;
 	}
 	.step-img2 {
 	    max-width: 100%;
@@ -77,7 +77,6 @@ background-position: bottom;
 	.step-img3 {
 		max-width: 100%;
 	    padding-top: 75%;
-	    margin-bottom: 50px;
 	}
 	.step-box:last-child {
 		margin: 0 auto;
